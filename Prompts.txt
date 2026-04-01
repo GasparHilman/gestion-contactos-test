@@ -1,0 +1,16 @@
+Trabajá como un desarrollador Full Stack Senior. Creá un proyecto de Node.js en una carpeta llamada backend. Configurá un servidor con Express que escuche en el puerto 5000. Organizá el proyecto usando carpetas para models, controllers y routes. Instalá las dependencias: express, cors, dotenv, sequelize y sqlite3.
+
+Utilizando Sequelize y SQLite, creá un modelo llamado Contact que tenga los campos nombre (string) y email (string). Luego, implementá un controlador y sus rutas correspondientes para las siguientes operaciones:
+  Crear un contacto (POST /api/contacts).
+  Listar todos los contactos (GET /api/contacts).
+  Eliminar un contacto por su ID (DELETE /api/contacts/:id)
+
+
+Creá una carpeta llamada frontend (afuera de backend) e inicializá un proyecto de React usando Vite.
+creá una interfaz de usuario con lo siguiente:
+1. Un titulo "Gestión de Contactos"
+2. Un formulario con inputs para Nombre y Email, y un botón "Agregar"
+3. una tabla para visualizar los contactos guardados
+4. Un botón de 'Eliminar' (puede ser un tacho de basura) para cada contacto
+
+Quiero que el email sea único, es decir, que no pueda haber 2 contactos con el mismo email. Cuando el usuario quiera ingresar un contacto con email repetido, debe aparecer también un aviso.
